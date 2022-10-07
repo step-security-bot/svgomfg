@@ -3,7 +3,7 @@
   "extends": ["github>renovatebot/.github"],
   "semanticCommitScope": "deps",
   "automergeType": "pr",
-  "renovateFork": true,
+  "includeForks": true,
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
