@@ -6,13 +6,19 @@
     "type": "git",
     "url": "git+https://github.com/zkrew-red/svgomfg.git"
   },
-  "keywords": ["svg", "svgo"],
+  "keywords": [
+    "svg",
+    "svgo"
+  ],
   "author": "ZKREW",
   "bugs": {
     "url": "https://github.com/zkrew-red/svgomfg/issues"
   },
   "homepage": "https://github.com/zkrew-red/svgomfg#readme",
-  "license": "MIT",
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
@@ -38,11 +44,11 @@
     "build": "gulp clean-build",
     "start": "sirv build --port 8080 --dev --no-clear",
     "dev": "gulp dev",
-    "lint": "npm run lint:js && npm run lint:css",
+    "lint": "pnpm run lint:js && pnpm run lint:css",
     "lint:css": "stylelint src/css/ --rd --risd",
     "lint:js": "xo",
     "fix": "xo --fix",
-    "test": "npm run lint && npm run build"
+    "test": "pnpm run lint && pnpm run build"
   },
   "prettier": {
     "bracketSpacing": true,
