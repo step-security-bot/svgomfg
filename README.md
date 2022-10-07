@@ -1,5 +1,7 @@
 # SVGOMFG!
 
+[![CodeQL](https://github.com/zkrew-red/svgomfg/actions/workflows/codeql.yml/badge.svg)](https://github.com/zkrew-red/svgomfg/actions/workflows/codeql.yml)
+
 [SVGOMFG](https://github.com/zkrew-red/svgomfg#readme) is **[SVGO](https://github.com/svg/svgo)**'s **M**issing **G**UI, aiming to expose the majority, if not all the configuration options of SVGO.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/zkrew-red/svgomfg)
