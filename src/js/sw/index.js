@@ -2,8 +2,8 @@
 
 import { idbKeyval as storage } from '../utils/storage.js';
 
-const version = SVGOMG_VERSION;
-const cachePrefix = 'svgomg-';
+const version = SVGOMFG_VERSION;
+const cachePrefix = 'svgomfg-';
 const staticCacheName = `${cachePrefix}static-${version}`;
 const fontCacheName = `${cachePrefix}fonts`;
 const expectedCaches = new Set([staticCacheName, fontCacheName]);

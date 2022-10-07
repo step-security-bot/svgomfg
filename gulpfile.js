@@ -48,8 +48,8 @@ async function html() {
         headCSS,
         changelog,
         SVGO_VERSION: svgoPkg.version,
-        liveBaseUrl: 'https://jakearchibald.github.io/svgomg/',
-        title: `SVGOMG - SVGO's Missing GUI`,
+        liveBaseUrl: 'https://github.com/zkrew-red/svgomfg#readme',
+        title: `SVGOMFG - SVGO's Missing GUI`,
         description: 'Easy & visual compression of SVG images.',
         iconPath: 'imgs/icon.png',
       }),
@@ -88,7 +88,7 @@ async function js(entry, outputPath) {
     plugins: [
       rollupReplace({
         preventAssignment: true,
-        SVGOMG_VERSION: JSON.stringify(changelog[0].version),
+        SVGOMFG_VERSION: JSON.stringify(changelog[0].version),
       }),
       rollupResolve({ browser: true }),
       rollupCommon({ include: /node_modules/ }),
