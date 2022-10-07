@@ -68,6 +68,14 @@ jobs:
         run: |
           pnpm build
           
+      - name: Upload build files
+        uses: actions/upload-artifact@v2
+        if: github.repository == 'zkrew-red/svgofmg' && github.ref == 'refs/heads/live'
+        with:
+          name: build
+          path: ./build/
+          if-no-files-found: error 
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
