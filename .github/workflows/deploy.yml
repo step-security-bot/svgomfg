@@ -8,7 +8,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  cache-and-install:
     runs-on: ubuntu-latest
 
     strategy:
@@ -23,16 +23,31 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2.2.2
+      with:
+        version: 7
+        run_install: |
+          - args: [--global, gulp]
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
       run: |
-        npm install --global pnpm@latest
-        pnpm setup
-        pnpm install --global gulp@latest
-        pnpm install
-        pnpm build
+        echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+    - uses: actions/cache@v3
+      name: Setup pnpm cache
+      with:
+        path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Install dependencies
+      run: pnpm install
   
-  deploy:
-    needs: build
+  build-and-deploy:
+    needs: cache-and-install
     
     permissions:
       pages: write
@@ -44,6 +59,10 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: Build
+        run: |
+          pnpm build
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
