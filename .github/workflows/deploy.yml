@@ -27,8 +27,6 @@ jobs:
       uses: pnpm/action-setup@v2.2.2
       with:
         version: 7
-        run_install: |
-          - args: [--global, gulp, xo]
 
     - name: Get pnpm store directory
       id: pnpm-cache
@@ -59,6 +57,13 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+        with:
+         version: 7
+         run_install: |
+          - args: [--global, gulp]
+    
       - name: Build
         run: |
           pnpm build
