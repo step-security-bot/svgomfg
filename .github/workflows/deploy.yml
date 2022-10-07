@@ -26,6 +26,7 @@ jobs:
     - name: Build
       run: |
         npm install --global pnpm@latest
+        pnpm setup
         pnpm install --global gulp@latest
         pnpm install
         pnpm build
