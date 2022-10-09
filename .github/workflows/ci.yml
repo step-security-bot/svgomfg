@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Download build files
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@f023be2c48cc18debc3bacd34cb396e0295e2869 # tag=v2.1.0
         with:
           name: build
           path: ./build/
