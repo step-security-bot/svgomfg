@@ -1,45 +1,45 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@rollup/plugin-commonjs': ^20.0.0
-  '@rollup/plugin-node-resolve': ^13.0.5
-  '@rollup/plugin-replace': ^3.0.0
-  gulp: ^4.0.2
-  gulp-htmlmin: ^5.0.1
-  gulp-nunjucks: ^5.1.0
-  gulp-sass: ^5.0.0
-  gulp-sourcemaps: ^3.0.0
-  nanoevents: ^6.0.1
-  pako: ^2.0.4
-  prismjs: ^1.25.0
-  rollup: ^2.57.0
-  rollup-plugin-terser: ^7.0.2
-  sass: ^1.42.1
-  sirv-cli: ^1.0.14
+  '@rollup/plugin-commonjs': 20.0.0
+  '@rollup/plugin-node-resolve': 14.1.0
+  '@rollup/plugin-replace': 3.1.0
+  gulp: 4.0.2
+  gulp-htmlmin: 5.0.1
+  gulp-nunjucks: 5.1.0
+  gulp-sass: 5.1.0
+  gulp-sourcemaps: 3.0.0
+  nanoevents: 6.0.2
+  pako: 2.0.4
+  prismjs: 1.29.0
+  rollup: 2.79.1
+  rollup-plugin-terser: 7.0.2
+  sass: 1.55.0
+  sirv-cli: 1.0.14
   stylelint: ^13.13.1
   stylelint-config-twbs-bootstrap: ^2.2.3
-  svgo: ^2.7.0
-  xo: ^0.45.0
+  svgo: 2.8.0
+  xo: 0.45.0
 
 devDependencies:
-  '@rollup/plugin-commonjs': 20.0.0_rollup@2.57.0
-  '@rollup/plugin-node-resolve': 13.0.5_rollup@2.57.0
-  '@rollup/plugin-replace': 3.0.0_rollup@2.57.0
+  '@rollup/plugin-commonjs': 20.0.0_rollup@2.79.1
+  '@rollup/plugin-node-resolve': 14.1.0_rollup@2.79.1
+  '@rollup/plugin-replace': 3.1.0_rollup@2.79.1
   gulp: 4.0.2
   gulp-htmlmin: 5.0.1
   gulp-nunjucks: 5.1.0_gulp@4.0.2
-  gulp-sass: 5.0.0
+  gulp-sass: 5.1.0
   gulp-sourcemaps: 3.0.0
-  nanoevents: 6.0.1
+  nanoevents: 6.0.2
   pako: 2.0.4
-  prismjs: 1.25.0
-  rollup: 2.57.0
-  rollup-plugin-terser: 7.0.2_rollup@2.57.0
-  sass: 1.42.1
+  prismjs: 1.29.0
+  rollup: 2.79.1
+  rollup-plugin-terser: 7.0.2_rollup@2.79.1
+  sass: 1.55.0
   sirv-cli: 1.0.14
   stylelint: 13.13.1
   stylelint-config-twbs-bootstrap: 2.2.3_stylelint@13.13.1
-  svgo: 2.7.0
+  svgo: 2.8.0
   xo: 0.45.0_webpack@1.15.0
 
 packages:
@@ -372,48 +372,48 @@ packages:
     resolution: {integrity: sha512-88p7+M0QGxKpmnkfXjS4V26AnoC/eiqZutE8GLdaI5X12NY75bXSdTY9NkmYb2Xyk1O+MmkuO6Frmsj84V6I8Q==}
     dev: true
 
-  /@rollup/plugin-commonjs/20.0.0_rollup@2.57.0:
+  /@rollup/plugin-commonjs/20.0.0_rollup@2.79.1:
     resolution: {integrity: sha512-5K0g5W2Ol8hAcTHqcTBHiA7M58tfmYi1o9KxeJuuRNpGaTa5iLjcyemBitCBcKXaHamOBBEH2dGom6v6Unmqjg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.38.3
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.57.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.2.0
       is-reference: 1.2.1
       magic-string: 0.25.7
       resolve: 1.20.0
-      rollup: 2.57.0
+      rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-node-resolve/13.0.5_rollup@2.57.0:
-    resolution: {integrity: sha512-mVaw6uxtvuGx/XCI4qBQXsDZJUfyx5vp39iE0J/7Hd6wDhEbjHr6aES7Nr9yWbuE0BY+oKp6N7Bq6jX5NCGNmQ==}
+  /@rollup/plugin-node-resolve/14.1.0_rollup@2.79.1:
+    resolution: {integrity: sha512-5G2niJroNCz/1zqwXtk0t9+twOSDlG00k1Wfd7bkbbXmwg8H8dvgHdIWAun53Ps/rckfvOC7scDBjuGFg5OaWw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
-      rollup: ^2.42.0
+      rollup: ^2.78.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.57.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       '@types/resolve': 1.17.1
-      builtin-modules: 3.2.0
       deepmerge: 4.2.2
+      is-builtin-module: 3.1.0
       is-module: 1.0.0
       resolve: 1.20.0
-      rollup: 2.57.0
+      rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-replace/3.0.0_rollup@2.57.0:
-    resolution: {integrity: sha512-3c7JCbMuYXM4PbPWT4+m/4Y6U60SgsnDT/cCyAyUKwFHg7pTSfsSQzIpETha3a3ig6OdOKzZz87D9ZXIK3qsDg==}
+  /@rollup/plugin-replace/3.1.0_rollup@2.79.1:
+    resolution: {integrity: sha512-pA3XRUrSKybVYqmH5TqWNZpGxF+VV+1GrYchKgCNIj2vsSOX7CVm2RCtx8p2nrC7xvkziYyK+lSi74T93MU3YA==}
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.57.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       magic-string: 0.25.7
-      rollup: 2.57.0
+      rollup: 2.79.1
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.57.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.79.1:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -422,7 +422,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.0
-      rollup: 2.57.0
+      rollup: 2.79.1
     dev: true
 
   /@sindresorhus/is/3.1.2:
@@ -3085,10 +3085,6 @@ packages:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
 
-  /graceful-fs/4.2.8:
-    resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
-    dev: true
-
   /gulp-cli/2.3.0:
     resolution: {integrity: sha512-zzGBl5fHo0EKSXsHzjspp3y5CONegCm8ErO5Qh0UzFzk2y4tMvzLWhoDokADbarfZRL2pGpRp7yt6gfJX4ph7A==}
     engines: {node: '>= 0.10'}
@@ -3143,16 +3139,15 @@ packages:
       - chokidar
     dev: true
 
-  /gulp-sass/5.0.0:
-    resolution: {integrity: sha512-J0aH0/2N4+2szGCeut0ktGHK0Wg8L9uWivuigrl7xv+nhxozBQRAKLrhnDDaTa3FeUWYtgT8w4RlgdhRy5v16w==}
+  /gulp-sass/5.1.0:
+    resolution: {integrity: sha512-7VT0uaF+VZCmkNBglfe1b34bxn/AfcssquLKVDYnCDJ3xNBaW7cUuI3p3BQmoKcoKFrs9jdzUxyb+u+NGfL4OQ==}
     engines: {node: '>=12'}
     dependencies:
-      chalk: 4.1.2
-      lodash: 4.17.21
+      lodash.clonedeep: 4.5.0
+      picocolors: 1.0.0
       plugin-error: 1.0.1
       replace-ext: 2.0.0
       strip-ansi: 6.0.1
-      transfob: 1.0.0
       vinyl-sourcemaps-apply: 0.2.1
     dev: true
 
@@ -3167,7 +3162,7 @@ packages:
       css: 3.0.0
       debug-fabulous: 1.1.0
       detect-newline: 2.1.0
-      graceful-fs: 4.2.8
+      graceful-fs: 4.2.10
       source-map: 0.6.1
       strip-bom-string: 1.0.0
       through2: 2.0.5
@@ -3343,6 +3338,10 @@ packages:
   /ignore/5.1.8:
     resolution: {integrity: sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==}
     engines: {node: '>= 4'}
+    dev: true
+
+  /immutable/4.1.0:
+    resolution: {integrity: sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==}
     dev: true
 
   /import-fresh/3.3.0:
@@ -4478,16 +4477,12 @@ packages:
     dev: true
     optional: true
 
-  /nanocolors/0.1.12:
-    resolution: {integrity: sha512-2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==}
-    dev: true
-
   /nanocolors/0.2.9:
     resolution: {integrity: sha512-aymgS4Xe0LMqHOHl7jSUEkFh/6O/pcF0j61dBtreQZ1nmbyYdYjSYSJzz0iPLbKPkMtSmdRgyBGywNZGjKOEfw==}
     dev: true
 
-  /nanoevents/6.0.1:
-    resolution: {integrity: sha512-pV++eMfEBTnNQgtzW93LfVezbA1BPaPSgIgyK+ZskLSEEKjHThs4Pp2UqfOjI+EFD3UkVYbwmpxf1WSSX0ALzA==}
+  /nanoevents/6.0.2:
+    resolution: {integrity: sha512-FRS2otuFcPPYDPYViNWQ42+1iZqbXydinkRHTHFxrF4a1CpBfmydR9zkI44WSXAXCyPrkcGtPk5CnpW6Y3lFKQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     dev: true
 
@@ -5249,8 +5244,9 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /prismjs/1.25.0:
-    resolution: {integrity: sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==}
+  /prismjs/1.29.0:
+    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
+    engines: {node: '>=6'}
     dev: true
 
   /process-nextick-args/2.0.1:
@@ -5655,20 +5651,20 @@ packages:
     resolution: {integrity: sha512-JJsJ74Mw4sUDDisXGDnNNyN9xWmt5HcH6Kwvb/0m/IvTKjnLAtZfzeoLdpxk44AxQZki54oCCd+Kt0nPQ2AF2g==}
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.57.0:
+  /rollup-plugin-terser/7.0.2_rollup@2.79.1:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.14.5
       jest-worker: 26.6.2
-      rollup: 2.57.0
+      rollup: 2.79.1
       serialize-javascript: 4.0.0
       terser: 5.9.0
     dev: true
 
-  /rollup/2.57.0:
-    resolution: {integrity: sha512-bKQIh1rWKofRee6mv8SrF2HdP6pea5QkwBZSMImJysFj39gQuiV8MEPBjXOCpzk3wSYp63M2v2wkWBmFC8O/rg==}
+  /rollup/2.79.1:
+    resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -5704,12 +5700,14 @@ packages:
       regexp-tree: 0.1.24
     dev: true
 
-  /sass/1.42.1:
-    resolution: {integrity: sha512-/zvGoN8B7dspKc5mC6HlaygyCBRvnyzzgD5khiaCfglWztY99cYoiTUksVx11NlnemrcfH5CEaCpsUKoW0cQqg==}
-    engines: {node: '>=8.9.0'}
+  /sass/1.55.0:
+    resolution: {integrity: sha512-Pk+PMy7OGLs9WaxZGJMn7S96dvlyVBwwtToX895WmCpAOr5YiJYEUJfiJidMuKb613z2xNWcXCHEuOvjZbqC6A==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.2
+      immutable: 4.1.0
+      source-map-js: 1.0.2
     dev: true
 
   /semiver/1.1.0:
@@ -5888,6 +5886,11 @@ packages:
 
   /source-list-map/0.1.8:
     resolution: {integrity: sha512-cabwdhnSNf/tTDMh/DXZXlkeQLvdYT5xfGYBohqHG7wb3bBQrQlHQNWM9NWSOboXXK1zgwz6JzS5e4hZq9vxMw==}
+    dev: true
+
+  /source-map-js/1.0.2:
+    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+    engines: {node: '>=0.10.0'}
     dev: true
 
   /source-map-resolve/0.5.3:
@@ -6304,8 +6307,8 @@ packages:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
     dev: true
 
-  /svgo/2.7.0:
-    resolution: {integrity: sha512-aDLsGkre4fTDCWvolyW+fs8ZJFABpzLXbtdK1y71CKnHzAnpDxKXPj2mNKj+pyOXUCzFHzuxRJ94XOFygOWV3w==}
+  /svgo/2.8.0:
+    resolution: {integrity: sha512-+N/Q9kV1+F+UeWYoSiULYo4xYSDQlTgb+ayMobAXPwMnLvop7oxKMo9OzIrX5x3eS4L4f2UHhc9axXwY8DpChg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dependencies:
@@ -6314,7 +6317,7 @@ packages:
       css-select: 4.1.3
       css-tree: 1.1.3
       csso: 4.2.0
-      nanocolors: 0.1.12
+      picocolors: 1.0.0
       stable: 0.1.8
     dev: true
 
@@ -6454,10 +6457,6 @@ packages:
   /totalist/1.1.0:
     resolution: {integrity: sha512-gduQwd1rOdDMGxFG1gEvhV88Oirdo2p+KjoYFU7k2g+i7n6AFFbDQ5kMPUsW0pNbfQsB/cwXvT1i4Bue0s9g5g==}
     engines: {node: '>=6'}
-    dev: true
-
-  /transfob/1.0.0:
-    resolution: {integrity: sha512-8pltyWUhEM8NJdYRt5mUlnLEImxozXnmAkD4xL9MKTFyNiKuraibTiXnGbjuxtQdP9CzihRy4PR+Al7Iy2cmCw==}
     dev: true
 
   /trim-newlines/3.0.1:
