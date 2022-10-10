@@ -6,7 +6,7 @@
   "includeForks": true,
   "packageRules": [
     {
-      "matchUpdateTypes": ["major"],
+      "matchUpdateTypes": ["minor"],
       "dependencyDashboardApproval": true
     }
   ]
