@@ -4,7 +4,7 @@
 [![CodeQL](https://github.com/zkrew-red/svgomfg/actions/workflows/codeql.yml/badge.svg)](https://github.com/zkrew-red/svgomfg/actions/workflows/codeql.yml)
 [![Scorecards supply-chain security](https://github.com/zkrew-red/svgomfg/actions/workflows/scorecards.yml/badge.svg)](https://github.com/zkrew-red/svgomfg/actions/workflows/scorecards.yml)
 
-[SVGOMFG](https://github.com/zkrew-red/svgomfg#readme) is **[SVGO](https://github.com/svg/svgo)**'s **M**issing **G**UI, aiming to expose the majority, if not all the configuration options of SVGO.
+[SVGOMFG](https://github.com/zkrew-red/svgomfg#readme) is **[SVGO](https://github.com/svg/svgo)**'s **M**issing and **F**riendlfy **G**UI, aiming to expose the majority, if not all the configuration options of SVGO.
 
 ## Feature requests
 
