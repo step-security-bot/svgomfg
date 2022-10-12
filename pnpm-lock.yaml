@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rollup/plugin-commonjs': 22.0.2
   '@rollup/plugin-node-resolve': 14.1.0
-  '@rollup/plugin-replace': ^3.0.0
+  '@rollup/plugin-replace': 4.0.0
   gulp: ^4.0.2
   gulp-htmlmin: ^5.0.1
   gulp-nunjucks: ^5.1.0
@@ -24,7 +24,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.79.1
   '@rollup/plugin-node-resolve': 14.1.0_rollup@2.79.1
-  '@rollup/plugin-replace': 3.0.0_rollup@2.79.1
+  '@rollup/plugin-replace': 4.0.0_rollup@2.79.1
   gulp: 4.0.2
   gulp-htmlmin: 5.0.1
   gulp-nunjucks: 5.1.0_gulp@4.0.2
@@ -371,8 +371,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-replace/3.0.0_rollup@2.79.1:
-    resolution: {integrity: sha512-3c7JCbMuYXM4PbPWT4+m/4Y6U60SgsnDT/cCyAyUKwFHg7pTSfsSQzIpETha3a3ig6OdOKzZz87D9ZXIK3qsDg==}
+  /@rollup/plugin-replace/4.0.0_rollup@2.79.1:
+    resolution: {integrity: sha512-+rumQFiaNac9y64OHtkHGmdjm7us9bo1PlbgQfdihQtuNxzjpaB064HbRnewUOggLQxVCCyINfStkgmBeQpv1g==}
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     dependencies:
