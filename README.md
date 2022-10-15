@@ -1,10 +1,10 @@
 # SVGOMFG!
 
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/from-referrer)
 [![CodeQL](https://github.com/zkrew-red/svgomfg/actions/workflows/codeql.yml/badge.svg)](https://github.com/zkrew-red/svgomfg/actions/workflows/codeql.yml)
+[![Scorecards supply-chain security](https://github.com/zkrew-red/svgomfg/actions/workflows/scorecards.yml/badge.svg)](https://github.com/zkrew-red/svgomfg/actions/workflows/scorecards.yml)
 
-[SVGOMFG](https://github.com/zkrew-red/svgomfg#readme) is **[SVGO](https://github.com/svg/svgo)**'s **M**issing **G**UI, aiming to expose the majority, if not all the configuration options of SVGO.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/zkrew-red/svgomfg)
+[SVGOMFG](https://github.com/zkrew-red/svgomfg#readme) is **[SVGO](https://github.com/svg/svgo)**'s **M**issing and **F**riendlfy **G**UI, aiming to expose the majority, if not all the configuration options of SVGO.
 
 ## Feature requests
 
